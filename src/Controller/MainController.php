@@ -8,20 +8,28 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class MainController extends AbstractController
 {
-    #[Route('/', name: 'accueil')]
+    #[Route('/', name: 'main_accueil')]
     public function accueil(): Response
     {
-        return $this->render('main/accueil.html.twig', [ ]);
+        return $this->render('main/accueil.html.twig', [
+            ]);
     }
 
-    #[Route('/main', name: 'app_main')]
-    public function index(): Response
+    #[Route('/cv', name: 'main_cv')]
+    public function cv(): Response
     {
-        return $this->render('main/index.html.twig', [
-            'controller_name' => 'MainController',
+        return $this->render('main/cv.html.twig', [
+
         ]);
     }
 
+    #[Route('/contact', name: 'main_contact')]
+    public function contact(): Response
+    {
+        return $this->render('main/contact.html.twig', [
+
+        ]);
+    }
 
 
 
