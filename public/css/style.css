@@ -1,9 +1,17 @@
+body {
+    background-image: linear-gradient(to bottom, #4c4c4c, #000000);
+    height: 99vh;
+}
+
+.logoHeader{
+    width: 90px;
+}
+
+
+
 
 *{
-
-
     font-family: 'Urbanist', sans-serif;
-
 }
 
 h1{
@@ -13,3 +21,4 @@ h1{
 h2{
     font-family: 'Playfair Display', serif;
 }
+
