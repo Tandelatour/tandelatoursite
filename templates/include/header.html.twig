@@ -1,18 +1,20 @@
 <header>
-    <div class="logoHeader">
-        <a href="{{ path('main_accueil') }}"><img src="{{ asset('img/logoClair.png') }}" alt="logo de Tan"></a>
+    <div class="fullheader">
+        <div class="logoHeader">
+            <a href="{{ path('main_accueil') }}"><img src="{{ asset('img/logoClair.png') }}" alt="logo de Tan"></a>
+        </div>
+        <div class="titreHeader">
+        <h1>Tan Latour</h1>
+        <h2 class="h2dev">Développeur</h2>
+        </div>
     </div>
-    <div class="titreHeader">
-    <h1>Tan Latour</h1>
-    <h2>Développeur</h2>
-    </div>
-    {# todo inserer navigation ?  #}
 </header>
-
 <nav>
     <div class="navbar">
         <a href="{{path('main_accueil')}}">Accueil</a>
-        <a href="{{path('main_cv')}}">C.v</a>
+        <a href="{{path('main_cv')}}">CV</a>
         <a href="{{path('main_contact')}}">Contact</a>
+
     </div>
 </nav>
+
