@@ -1,7 +1,8 @@
 
+
 body {
    background-color: #5b5f6a;
-    height: 99vh;
+
 }
 
 a{
@@ -47,15 +48,15 @@ header{
     display: flex;
     justify-content: flex-start;
     padding: 2.5em 0.5em 0 1.5em;
-    margin: -1.5em -1.5em 0.5em -1.5em;
-    border: solid;
+    margin: -1.5em -0.5em 0 -1.5em;
 
 }
 
 nav {
     background-color: #c5b83d;
     display: flex;
-    margin: 1em 0 2em 2em ;
+    margin: 0 -0.5em 0 -0.5em;
+    padding: 0.2em 0 0.2em 0 ;
 }
 
 
@@ -107,37 +108,40 @@ footer {
 
 
 
-
-
-
-
 @media screen and (max-width: 768px) {
-    .logoHeader{
+    .logoHeader {
         max-width: 5.5em;
     }
-    .titreHeader{
+
+    .titreHeader {
         margin-left: 10px;
         font-size: 0.5em;
     }
-    .h2dev{
+
+    .h2dev {
         margin-top: -15px;
         margin-left: 20px;
         font-size: 2em;
     }
+
     nav {
         margin: 0.5em 0 1em 0;
     }
+
     .navbar a {
         font-size: 1.2em;
         padding-left: 0.5em;
     }
+
     main {
         margin: 1em 1em 0 1em;
         padding: 1.4em;
     }
+
     footer {
         height: auto;
         padding: 0.8em 1em;
         font-size: 0.8em;
     }
+
 }
