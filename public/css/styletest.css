@@ -9,27 +9,12 @@
 }
 
 
-html{
-    width:100%;
-    height: 100%;
-}
-body{
-    background: -webkit-linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-    background: linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-}
-.container{
-    position:absolute;
-    @include center();
-}
+
 .title{
 
     color: transparent;
     font-size: 120px;
-    background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+    background: url("https://img.freepik.com/photos-gratuite/fond-mur-or_1249-217.jpg?w=2000&t=st=1679577572~exp=1679578172~hmac=602643b9005152808116f25c40f583c90411eaa4888edd3e97fc673e4e6103a2") repeat;
     -webkit-background-clip: text;
     position: relative;
 
